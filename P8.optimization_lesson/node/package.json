@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "postinstall": "node dataset_generator && node feature_extractor && node run_evaluation"
+    "postinstall": "node dataset_generator && node feature_extractor"
   },
   "dependencies": {
     "canvas": "^2.10.2"
